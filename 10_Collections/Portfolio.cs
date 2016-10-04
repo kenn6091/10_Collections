@@ -26,8 +26,24 @@ namespace _10_Collections {
             return res;
         }
 
+        internal IList<IAsset> GetAssets() {
+            throw new NotImplementedException();
+        }
+
         internal void AddAsset(IAsset asset) {
             stocks.Add(asset);
+        }
+
+        internal Stock GetAssetByName(string v) {
+            throw new NotImplementedException();
+        }
+
+        internal IList<IAsset> GetAssetsSortedByName() {
+            throw new NotImplementedException();
+        }
+
+        internal IList<IAsset> GetAssetsSortedByValue() {
+            throw new NotImplementedException();
         }
     }
 }
